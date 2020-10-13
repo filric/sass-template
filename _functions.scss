@@ -12,3 +12,6 @@
 @mixin fonten_for_text($fonten){
     font-family: $fonten;
 }
+@mixin text_color($textcolor){
+    text-decoration-color: $textcolor;//försökte ändra färgen på texten men vet inte vad jag ska använda istället för text-decoration-color
+}

@@ -8,5 +8,6 @@ body {
 
 .test {
     @include change_font_size(variables.$super_large);
-    @include fonten_for_text(variables.$fonten)
+    @include fonten_for_text(variables.$fonten);
+    @include text_color(variables.$textcolor)
 }
