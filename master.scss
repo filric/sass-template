@@ -3,11 +3,15 @@
 
 body {
 
-    @include color(variables.$redder);
+    @include color($leaf_color);
 }
 
 .test {
-    @include change_font_size(variables.$super_large);
-    @include fonten_for_text(variables.$fonten);
-    @include text_color(variables.$textcolor)
+    @include change_font_size($super_large);
+    @include fonten_for_text($fonten);
+    @include text_color($textcolor);
+}
+.bal p {
+    @include fonten_for_text($fonten);
+    @include test_size($quiteSmall);
 }

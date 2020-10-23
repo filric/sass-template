@@ -1,8 +1,16 @@
+@use "./variables";
 body {
-  background-color: #990000;
+  background-color: lightgreen;
 }
 
 .test {
   font-size: 165px;
+  font-family: "comic sans ms";
+  color: lavender;
+}
+
+.bal p {
+  font-family: "comic sans ms";
+  font-size: 100px;
 }
 /*# sourceMappingURL=master.css.map */
