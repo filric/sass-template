@@ -13,7 +13,7 @@
     font-family: $fonten;
 }
 @mixin text_color($textcolor){
-    color: $textcolor;//försökte ändra färgen på texten men vet inte vad jag ska använda istället för text-decoration-color
+    color: $textcolor;
 }
 @mixin test_size($quiteSmall) {
     font-size: $quiteSmall;
