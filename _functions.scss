@@ -1,6 +1,7 @@
-@use "./variables";
+@import "./variables";/*importerar variabler så man kan använda dem i detta dokumentet*/
 
 
+/*mixin låter dig definiera stilar som kan återanvändas i din css*/
 @mixin color($color){
     background-color: $color;
 } 

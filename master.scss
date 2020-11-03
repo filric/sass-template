@@ -3,21 +3,29 @@
 
 body {
 
-    @include color($leaf_color);
+    @include color($leaf_color);/*include används för att säga att detta blocket ska ha en variabel*/
 }
 
 .test {
     @include change_font_size($super_large);
     @include fonten_for_text($fonten);
     @include text_color($textcolor);
+    margin-top: 150px;
+    margin-left: 40px;
 }
-.bal p {
+.bal {
+  margin-top: 20px;
+  margin-left: 40px;
+
+p {
     @include fonten_for_text($fonten);
     @include test_size($quiteSmall);
+    
+}
 }
 nav {
     overflow: hidden;
-    background-color: #333;
+    background-color:black;
     position: fixed;
     top: 0;
     width: 100%;
@@ -26,7 +34,7 @@ nav {
       padding: 15px;
       li {
         display: inline;
-        font-size: 20px;
+        font-size: 35px;
         a {
           color: #f2f2f2;
           padding: 15px;
