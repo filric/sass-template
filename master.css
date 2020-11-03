@@ -5,7 +5,7 @@
 /*mixin låter dig definiera stilar som kan återanvändas i din css*/
 body {
   background-color: lightgreen;
-  /*include används för att säga att detta blocket ska ha en variabel*/
+  /*include används för att säga att detta blocket ska använda en variabel*/
 }
 
 .test {

@@ -3,7 +3,7 @@
 
 body {
 
-    @include color($leaf_color);/*include används för att säga att detta blocket ska ha en variabel*/
+    @include color($leaf_color);/*include används för att säga att detta blocket ska använda en variabel*/
 }
 
 .test {
